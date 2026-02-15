@@ -1,11 +1,12 @@
 class Seshions < Formula
   desc "Monitor Codex/Claude terminal sessions with macOS notifications"
   homepage "https://github.com/danhergir/seshions"
-  url "https://github.com/danhergir/seshions/releases/download/v0.1.9/seshions-0.1.9.tar.gz"
-  sha256 "61ea8df703af93ef3d64285509fa2e3bddb6c08ac386fded8b6398c5d5fe6af4"
+  url "https://github.com/danhergir/seshions/releases/download/v0.1.10/seshions-0.1.10.tar.gz"
+  sha256 "aca1649671e5980aa5e48101765994ea4e8f8da87bf1ea3f02b2048fad58ad5e"
   license "MIT"
 
   depends_on "node"
+  depends_on "tmux"
 
   def install
     libexec.install Dir["src"]
