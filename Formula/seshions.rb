@@ -1,8 +1,8 @@
 class Seshions < Formula
   desc "Monitor Codex/Claude terminal sessions with macOS notifications"
   homepage "https://github.com/danhergir/seshions"
-  url "https://github.com/danhergir/seshions/releases/download/v0.1.7/seshions-0.1.7.tar.gz"
-  sha256 "5c428a9c124569d34ee74d514fd2c21206ddffeeafd554356871f8fddff5259b"
+  url "https://github.com/danhergir/seshions/releases/download/v0.1.8/seshions-0.1.8.tar.gz"
+  sha256 "5e1e87b2684bef3d145d7cb0bd21d2cc267f71ded83922f6cf4579e5ada02fc4"
   license "MIT"
 
   depends_on "node"
